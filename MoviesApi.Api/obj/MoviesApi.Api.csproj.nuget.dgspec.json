@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GithubProjects\\MoviesApi.Api\\MoviesApi.Api\\MoviesApi.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\GithubProjects\\MoviesApi.Api\\MoviesApi.Api\\MoviesApi.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GithubProjects\\MoviesApi.Api\\MoviesApi.Api\\MoviesApi.Api.csproj",
+        "projectName": "MoviesApi.Api",
+        "projectPath": "C:\\GithubProjects\\MoviesApi.Api\\MoviesApi.Api\\MoviesApi.Api.csproj",
+        "packagesPath": "C:\\Users\\derozk\\.nuget\\packages\\",
+        "outputPath": "C:\\GithubProjects\\MoviesApi.Api\\MoviesApi.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\derozk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.221.11.207/httpAuth/app/nuget/v1/FeedService.svc": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[16.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
